@@ -1,0 +1,35 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class BankPassword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner in = new Scanner(System.in);
+		
+		int pass;
+		int truepass = 1234;
+		String name;
+		int x = 1;
+		
+		System.out.print("Enter name:" );
+		name = in.nextLine();
+		
+		System.out.print("Enter password: ");
+		pass = in.nextInt();
+		
+		if(pass == truepass) {
+			System.out.print("Welcome");
+		}
+		
+		else {
+			for (x=1; x<= 3; x++) {
+				if (pass != )
+			}
+		}
+ 
+	}
+
+}
